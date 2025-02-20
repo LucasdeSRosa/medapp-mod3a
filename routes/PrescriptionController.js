@@ -1,4 +1,4 @@
-import { express } from "express";
+import express from "express";
 import prescriptionService from "../services/PrescriptionService.js";
 
 let router = express.Router();
@@ -58,4 +58,4 @@ router.delete('/prescription/:id', async (req, res) => {
     }
 });
 
-export default router();
+export default router;

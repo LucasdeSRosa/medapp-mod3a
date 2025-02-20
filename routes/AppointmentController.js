@@ -1,4 +1,4 @@
-import { express } from "express";
+import express from "express";
 import appointmentService from "../services/AppointmentService.js";
 
 let router = express.Router();
@@ -58,4 +58,4 @@ router.delete('/appointment/:id', async (req, res) => {
     }
 });
 
-export default router();
+export default router;

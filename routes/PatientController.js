@@ -1,4 +1,4 @@
-import { express } from "express";
+import express from "express";
 import patientService from "../services/PatientService.js";
 
 let router = express.Router();
@@ -58,4 +58,4 @@ router.delete('/patient/:id', async (req, res) => {
     }
 });
 
-export default router();
+export default router;
