@@ -21,7 +21,6 @@ const prescriptionSchema = new Schema({
   },    
   instructions: {
     type: String,
-    required: [true, 'Instructions are required'],
   },
   createdAt: {
     type: Date,
