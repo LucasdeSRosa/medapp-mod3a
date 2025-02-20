@@ -58,6 +58,4 @@ router.delete('/appointment/:id', async (req, res) => {
     }
 });
 
-
-
 export default router();
