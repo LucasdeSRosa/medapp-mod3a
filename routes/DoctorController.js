@@ -1,8 +1,9 @@
 import express from "express";
-import doctorService from "../services/DoctorService.js";
 import bcrypt from "bcrypt";
+import doctorService from "../services/DoctorService.js";
 
-let router = express.Router();
+
+const router = express.Router();
 
 router.get('/doctors', async (req, res) => {
     try {
